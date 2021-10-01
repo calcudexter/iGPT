@@ -35,3 +35,15 @@ To overcome this challenge, BERT uses two training strategies:
 ### Masked LM (MLM)
 
 Before feeding word sequences into BERT, 15% of the words in each sequence are replaced with a [MASK] token.
+The model then attempts to predict the original value of the masked  words, based on the context provided by the other, non-masked, words in  the sequence. In technical terms, the prediction of the output words  requires:
+
+
+
+## [Pre-training in NLP](https://medium.com/ai%C2%B3-theory-practice-business/what-is-pre-training-in-nlp-introducing-5-key-technologies-455c54933054)
+
+* Pre-training in AI refers to training a model with one task to help it form parameters that can be used in other tasks.
+* using model parameters of tasks that have been learned before to initialize the model parameters of new tasks.
+
+[Paper Explaination](https://becominghuman.ai/image-gpt-generative-image-one-pixel-by-pixel-fbebf784d48)
+
+In general, the pre-training methods are done in language models on the text. But now they are pre-training on image generation.
