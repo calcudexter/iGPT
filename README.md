@@ -14,4 +14,12 @@ Final Training would require making changes to BERT and GPT-2 models so, trainin
 
 PS: The main challenge is to understand whats going on. I honestly didn't get how and when output would be obtained but I expect we would understand in the process :). 
 
-**Feel Free To makes changes to this README** 
+**Feel Free To makes changes to this README**  
+### Updates  
+(Neeraj) : I have completed the coding part of the model (i.e. steps 2+3 from the sketch above). Note that BERT (masking some pixels randomly while training instead of predicting one-by-one) was not used so far. I used the GPT-2 architecture currently.  
+Future work will be  
+- To train it neatly on the preprocessed dataset  
+- Fine tune the trained model for classification (take output of any decoder block and retrain this model for classification)
+- Linear probing is just a way to gauge the performance of different output layers as a feature vector for logistic regression model.  
+
+Link (notebook) : https://colab.research.google.com/drive/148yiVLIHWIv9r9GNDLALyG-9EgL7aUFT#scrollTo=nHc7YALSuS9C
