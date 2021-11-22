@@ -16,10 +16,11 @@ The following is the directory structure of the project :-
 
 * Main codes are in jupyter-notebooks:-
 
-  1.  **igpt.ipynb**:  The notebook used to train the mnist dataset and obtain the results
+  1.  **ImageGPT_MNIST.ipynb**:  The notebook used to train the mnist dataset and obtain the results
 
      ```markdown
-     Execute each cell one-by-one on google-colab/kaggle
+     The notebook contains the code for the architecture of image-GPT model, image generation and linear probing.
+     Just execute each cell one-by-one on google-colab/kaggle; training, generation and probing will happen sequentially.
      ```
 
   2. **image_gpt_train.ipynb:** The notebook used to train the cifar10 dataset
