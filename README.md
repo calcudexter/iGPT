@@ -12,7 +12,7 @@ This repository contains our course project `Generative Pretraining from pixels`
 
 The following is the directory structure of the project :-
 
-![Screenshot from 2021-11-22 17-34-51](/home/utkarsh/Documents/iitb/gnr638/project/Screenshot from 2021-11-22 17-34-51.png)
+![Screenshot from 2021-11-22 17-34-51](dir_structure.png)
 
 * Main codes are in jupyter-notebooks:-
 
